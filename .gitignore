@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# CMake
+out/
+
+# IntelliSense
+ipch/
+
+# Logs
+*.log
+*.tlog
+
+# Debug symbols
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.obj
+
+# Generated files
+*.exe.recipe
+
+# ImGui
+imgui.ini
