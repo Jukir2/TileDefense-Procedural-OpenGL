@@ -9,17 +9,32 @@ The game was created as part of an engineering thesis project.
 
 ## Screenshots
 
-| Main menu | How to play |
-|---|---|
-| ![Main menu](screenshots/main_menu.png) | ![How to play](screenshots/how_to_play.png) |
+<table>
+  <tr>
+    <td align="center"><strong>Main menu</strong></td>
+    <td align="center"><strong>How to play</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/main_menu.png" alt="Main menu" width="100%"></td>
+    <td><img src="screenshots/how_to_play.png" alt="How to play" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Gameplay start</strong></td>
+    <td align="center"><strong>Gameplay wave</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/gameplay_start.png" alt="Gameplay start" width="100%"></td>
+    <td><img src="screenshots/gameplay_wave.png" alt="Gameplay wave" width="100%"></td>
+  </tr>
+</table>
 
-| Gameplay start | Gameplay wave |
-|---|---|
-| ![Gameplay start](screenshots/gameplay_start.png) | ![Gameplay wave](screenshots/gameplay_wave.png) |
+<p align="center">
+  <strong>Victory screen</strong>
+</p>
 
-| Victory |
-|---|---|
-| ![Victory](screenshots/victory.png) |
+<p align="center">
+  <img src="screenshots/victory.png" alt="Victory screen" width="90%">
+</p>
 
 ---
 
@@ -115,8 +130,9 @@ TileDefense-Procedural-OpenGL/
 ├── screenshots/
 │   ├── main_menu.png
 │   ├── how_to_play.png
-│   ├── gameplay.png
-│   └── tower_upgrade.png
+│   ├── gameplay_start.png
+│   └── gameplay_wave.png
+│   └── victory.png
 │
 └── TowerDefense/
     ├── main.cpp
@@ -143,66 +159,98 @@ The game is controlled mainly with the mouse.
 
 Basic controls:
 
-Click a tile to select it.
-Build towers using the control panel.
-Select an existing tower to upgrade or sell it.
-Press Next wave to start the next enemy wave.
-Use the in-game menu to pause, restart, generate a new map or return to the main menu.
-How to Build
+- Click a tile to select it.
+- Build towers using the control panel.
+- Select an existing tower to upgrade or sell it.
+- Press `Next wave` to start the next enemy wave.
+- Use the in-game menu to pause, restart, generate a new map or return to the main menu.
+
+---
+
+## How to Build
 
 The project was created for Windows and Visual Studio.
 
-Requirements
-Windows 10 or Windows 11
-Visual Studio 2022 or newer
-Graphics card supporting OpenGL 3.3
-GLFW
-GLAD
-Dear ImGui
-Build Steps
-Clone the repository:
+### Requirements
+
+- Windows 10 or Windows 11
+- Visual Studio 2022 or newer
+- Graphics card supporting OpenGL 3.3
+- GLFW
+- GLAD
+- Dear ImGui
+
+### Build Steps
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/Jukir2/TileDefense-Procedural-OpenGL.git
-Open the solution file in Visual Studio:
+```
+
+2. Open the solution file in Visual Studio:
+
+```text
 TowerDefense.sln
-Select build configuration:
+```
+
+3. Select build configuration:
+
+```text
 Release | x64
-Build and run the project.
-Documentation
+```
 
-The full engineering thesis is available in the docs folder:
+4. Build and run the project.
 
+---
+
+## Documentation
+
+The full engineering thesis is available in the `docs` folder:
+
+```text
 docs/Praca_inzynierska_Jakub_Michalski.pdf
+```
 
 It describes the project architecture, procedural generation, rendering, gameplay systems, user guide and manual tests.
 
-Current Limitations
+---
+
+## Current Limitations
 
 The current version does not include:
 
-sound system,
-saving and loading game state,
-persistent progression between runs,
-difficulty level selection,
-saving generated maps or loading maps from a seed.
+- sound system,
+- saving and loading game state,
+- persistent progression between runs,
+- difficulty level selection,
+- saving generated maps or loading maps from a seed.
 
 These features can be added in future versions.
 
-Future Development Ideas
+---
+
+## Future Development Ideas
 
 Possible improvements:
 
-adding sound effects and music,
-adding more tower and enemy types,
-saving and loading game progress,
-adding selectable difficulty levels,
-saving generated maps by seed,
-improving UI visuals,
-adding animations and visual effects,
-moving shader code into separate GLSL files.
-Author
+- adding sound effects and music,
+- adding more tower and enemy types,
+- saving and loading game progress,
+- adding selectable difficulty levels,
+- saving generated maps by seed,
+- improving UI visuals,
+- adding animations and visual effects,
+- moving shader code into separate GLSL files.
+
+---
+
+## Author
 
 Jakub Michalski
 
-License
+---
+
+## License
 
 This project is intended for educational and portfolio purposes.
