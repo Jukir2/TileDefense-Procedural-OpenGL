@@ -167,6 +167,19 @@ Basic controls:
 
 ---
 
+## Download
+
+A prebuilt Windows version is available in the **Releases** section.
+
+Download the latest release, extract the `.zip` archive and run:
+
+```text
+TowerDefense.exe
+```
+The assets folder must remain in the same directory as the executable.
+
+---
+
 ## How to Build
 
 The project was created for Windows and Visual Studio.
