@@ -9,13 +9,17 @@ The game was created as part of an engineering thesis project.
 
 ## Screenshots
 
-> Screenshots will be added here.
+| Main menu | How to play |
+|---|---|
+| ![Main menu](screenshots/main_menu.png) | ![How to play](screenshots/how_to_play.png) |
 
-<!-- Example after adding screenshots:
-![Main menu](screenshots/main_menu.png)
-![Gameplay](screenshots/gameplay.png)
-![Procedural map](screenshots/procedural_map.png)
--->
+| Gameplay start | Gameplay wave |
+|---|---|
+| ![Gameplay start](screenshots/gameplay_start.png) | ![Gameplay wave](screenshots/gameplay_wave.png) |
+
+| Victory |
+|---|---|
+| ![Victory](screenshots/victory.png) |
 
 ---
 
